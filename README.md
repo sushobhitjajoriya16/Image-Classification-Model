@@ -1,28 +1,18 @@
-📌 Image Classification Model — Sequential Neural Network
+🧠 Image Classification Model (Sequential Neural Network)
 
-This project implements an Image Classification Model using a Sequential Neural Network.
-It uses deep learning techniques to classify images into predefined categories by training on a labeled dataset.
+A simple and effective Image Classification Model built using a Sequential Neural Network. The project uses deep learning techniques to classify images into categories with TensorFlow and Keras.
 
-🚀 Project Overview
+📌 Overview
 
-The goal of this project is to build and train a neural network capable of identifying patterns in images and classifying them accurately.
-The model follows a complete ML pipeline including:
+Loads and preprocesses image data
 
-Dataset loading
+Splits into Train / Test / Validation
 
-Preprocessing
+Builds a Sequential Neural Network
 
-Training / Testing / Validation split
+Trains, evaluates, and visualizes results
 
-Model building using Sequential API
-
-Evaluation & Visualization
-
-🧠 Neural Network Flow Diagram
-
-Below is the high-level architecture of the dataset flow and model pipeline:
-
-🔧 Technologies & Libraries Used
+🔧 Tech Stack
 
 TensorFlow
 
@@ -34,84 +24,25 @@ Pandas
 
 Matplotlib
 
-📂 Dataset Structure
+📊 Workflow Diagram
 
-The dataset is divided into:
-
-/Dataset
-    /train
-    /test
-    /validation
-
-
-Each folder contains image samples for respective classes.
-
-🏗 Model Architecture (Sequential)
-
-The model follows a simple Sequential architecture:
-
-Input Layer
-
-Convolutional Layers
-
-MaxPooling Layers
-
-Flatten Layer
-
-Dense Layers
-
-Output Layer (Softmax)
-
-▶ How to Run the Project
-1. Clone the repository
+▶ Run the Project
+1. Clone
 git clone https://github.com/sushobhitjajoriya16/Image-Classification-Model.git
-cd Image-Classification-Model
 
-2. Install required libraries
+2. Install dependencies
 pip install tensorflow numpy pandas matplotlib keras
 
-3. Run the training script
+3. Run model
 python model.py
 
+📁 Structure
+📦 Image-Classification-Model
+ ├── model.py
+ ├── dataset/
+ ├── FLOW CHART.jpg
+ └── README.md
 
-(Adjust filename if different)
+🔗 Repository
 
-📊 Model Evaluation
-
-The model provides:
-
-Training accuracy
-
-Validation accuracy
-
-Loss curves using Matplotlib
-
-Prediction results
-
-You can further enhance evaluation using:
-
-Confusion Matrix
-
-Classification Report
-
-📁 Folder Structure
-Image-Classification-Model/
-│── model.py
-│── dataset/
-│── README.md
-│── FLOW CHART.jpg
-│── results/
-│     ├── accuracy.png
-│     ├── loss.png
-
-🔗 GitHub Repository
-
-🔗 https://github.com/sushobhitjajoriya16/Image-Classification-Model/tree/master
-
-📜 License
-
-This project is open-source and free to use for learning and research.
-
-🙌 Acknowledgments
-
-Special thanks to open-source contributors and the deep learning community for providing valuable tools and documentation.
+github.com/sushobhitjajoriya16/Image-Classification-Model
